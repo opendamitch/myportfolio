@@ -19,7 +19,7 @@ module.exports = async (req, res) => {
 
     // Define the email message
     const msg = {
-        to: 'your-email@example.com', // Update with your email address
+        to: 'opendamitch@gmail.com', // Update with your email address
         from: email,
         subject: 'New Form Submission',
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
