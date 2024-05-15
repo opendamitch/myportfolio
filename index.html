@@ -16,7 +16,7 @@
           <li><a href="#about">About me</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -43,8 +43,8 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Mitchel Openda</h1>
-		
-        <p class="section__text__p2">UI/UX designer</p>
+		      <p class="section__text__p2">I'm a <span class="typed"></span></p>
+        
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -269,7 +269,8 @@ Passionate UI/UX designer skilled in crafting engaging digital experiences.
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Strath Car Rentals</h2>
+			
+			<h2 class="experience-sub-title project-title">Strath Car Rentals</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -293,6 +294,7 @@ Passionate UI/UX designer skilled in crafting engaging digital experiences.
                 class="project-img"
               />
             </div>
+		
             <h2 class="experience-sub-title project-title">Safari-Afrika</h2>
             <div class="btn-container">
               <button
@@ -333,6 +335,16 @@ Passionate UI/UX designer skilled in crafting engaging digital experiences.
               </button>
             </div>
           </div>
+		  <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/photo-1.jpg" alt="Photography Work" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Photography Work</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Gallery</button>
+          <!-- Add appropriate link to your photography gallery -->
+        </div>
+      </div>
         </div>
       </div>
       <img
@@ -377,6 +389,15 @@ Passionate UI/UX designer skilled in crafting engaging digital experiences.
       </nav>
       <p>Copyright &#169; 2024 Mitchel Openda. All Rights Reserved.</p>
     </footer>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+	<script>
+    var typed = new Typed('.typed', {
+      strings: ['UI/UX Designer', 'Software Developer', 'Freelance Digital Marketer', 'Photographer'],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
     <script src="script.js"></script>
   </body>
 </html>
