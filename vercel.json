@@ -1,7 +1,11 @@
 {
   "functions": {
     "api/sendEmail": {
-      "handler": "sendEmail.js"
+      "memory": 512,
+      "maxDuration": 10
     }
-  }
+  },
+  "routes": [
+    { "src": "/api/sendEmail", "dest": "api/sendEmail" }
+  ]
 }
