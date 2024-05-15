@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/sendEmail": {
+      "handler": "sendEmail.js"
+    }
+  }
+}
